@@ -1,0 +1,16 @@
+{
+  "name": "fireworks-safety-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "焰火燃放安全仿真与报批辅助系统（纯前端 / IndexedDB / WebGL2）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host --port 4173"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
